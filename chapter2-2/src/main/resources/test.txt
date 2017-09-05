@@ -1,0 +1,2 @@
+book.author=francis
+book.name=spring boot
