@@ -1,0 +1,4 @@
+@Cacheable          在方法执行前spring先查看缓存中是否数据，如果有数据，则直接返回缓存数据；若没有数据，调用方法并将方法返回值放进缓存中。
+@CachePut           无论怎样，都会讲方法的返回值放到缓存中，@CachePut的属性与@Cacheable保持一致
+@CacheEvict         讲一条数据或多条数据从缓存中删除
+@Caching            可以通过@Caching注解组合多个注解策略在一个方法上
